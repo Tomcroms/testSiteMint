@@ -1,0 +1,108 @@
+.body
+{
+    background-color: #0C0C1E;
+    width: 100%;    
+    max-width: 1300px;  
+    min-width: 800px;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 0;
+    margin: 0 auto 0 auto;  
+}
+
+.bloc_avec_padding
+{
+    padding: 0 100px 0 100px;    
+}
+
+.cliquable
+{
+    display: block;
+    height: 100%;
+    width: 100%;
+    text-decoration: none;
+}
+
+.header
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo
+{
+    padding: 20px 0 20px 0;
+}
+
+.logo img
+{
+    height: 50px;
+}
+
+.menu_vignette
+{
+    display: flex;
+    align-items: center;
+    margin-right: 30px;     
+}
+
+.triangle
+{
+    border-top-width: 20px 20px 0 20px;    
+    border-color: white transparent transparent transparent;
+    border-style: solid;
+    width: 0;
+    height: 0;
+    margin-top: 5px;  
+    margin-left: 5px;    
+}
+
+.ConnectWallet
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width : 160px;
+    height: 50px;   
+    border-radius: 15px;    
+    background-color: #2081E2;
+    padding: 0 10px 0 10px;
+    transition: all 2s;
+}
+.ConnectWallet:hover
+{
+    background-color: #358de6;
+    cursor: pointer;
+}
+
+.lien_menu
+{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+
+.lien_menu:hover 
+{
+    font-weight: 700;   
+}
+
+.txt_btn_wallet
+{
+    text-align: center;
+    color: white;
+    margin: 0; 
+}
+
+.txt_walletNumber
+{
+    color: white;
+    margin-top: 2px;
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <title>SiteTest</title>   
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>   
+        <link rel ="stylesheet" href ="style_accueil_header.css"/>
+        <link rel ="stylesheet" href ="style_accueil_main.css"/>
+        <link rel ="stylesheet" href="./style_bouton_mint.css"/>
+        <script type="text/javascript" src="./web3library.js"></script>
+        <script src="connectWallet.js"></script>
+    </head>
+    <body class="body">
+        <div class="bloc_avec_padding">
+            <header class="header">
+                <div class="logo">
+                    <img src="images/logo_test.png" alt="logo_Speedy_graphito"/>
+                </div>
+                <nav class="nav">
+                    <div class="menu_vignette">
+                        <a href="#" class="lien_menu">About us</a>
+                        <div class="triangle"></div>
+                    </div>
+                    <div class="menu_vignette">
+                        <a href="#" class="lien_menu">Speedy Collection</a>
+                    </div>
+                    <div class="menu_vignette">
+                        <a href="#" class="lien_menu">Roadmap</a>
+                    </div>
+                    <button class="menu_vignette ConnectWallet" id="boutonWallet">
+                        <p class="txt_btn_wallet" onclick="web3Test()" id="txt_btn_wallet">Connect Wallet</p>
+                    </button>
+                </nav>
+            </header>
+        </div>
+        <main class="div_img_principale">
+            <img src="images/background_speedy_graphito.jpg" alt="photo speedy" class="img_principale"/>
+            <div class="div_boutons_blancs">
+                <div class="bouton_blanc1"></div>
+                <div class="bouton_blanc"></div>
+                <div class="bouton_blanc"></div>
+            </div>
+        </main>
+        <section class="mint">
+            <div class="mint_bouton">
+                <h3 class="txt_bouton_mint" id="mint_bouton" onclick="mint()">Mint mglllll</h3>
+            </div>
+        </section>
+    </body>
+</html>

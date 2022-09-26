@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;700;800;900&family=Roboto:wght@100;300;400;700;900&display=swap');
+
+.mint_bouton
+{
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 100px;
+    width: 200px;
+    height: 80px;
+    border-radius: 12px;
+    background-color: #ec635d;
+    transition: all 0.55s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0px;
+    box-shadow: 0;
+}
+
+.mint_bouton:hover
+{
+    width: 220px;
+    height: 88px;
+    box-shadow: 6px 6px 3px 0px rgba(236,71,79,0.75);
+    cursor: pointer;
+}
+
+.txt_bouton_mint
+{
+    font-size: 18px;
+    text-align: center;
+    width: 160px;
+    height: auto;
+    color: white;
+    text-shadow: 2px 0px black;
+    letter-spacing: 2px;
+    font-family: "Raleway";
+}
