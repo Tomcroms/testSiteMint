@@ -32,9 +32,9 @@ function testTexte()
             bouton.removeAttribute("onclick");
 
             document.getElementById("txt_btn_wallet").style.marginTop = "14px";
-            document.getElementById("txt_btn_wallet").textContent = "Wallet Connected";
+            document.getElementById("txt_btn_wallet").textContent = "Wallet Connecte";
 
-            bouton.style.width = "330px";
+            bouton.style.width = "130px";
             bouton.style.overflow = "hidden";
     
             const txt_walletNumber = document.createElement("p");
@@ -590,7 +590,7 @@ async function web3Test()
         document.getElementById("txt_btn_wallet").style.marginTop = "14px";
         document.getElementById("txt_btn_wallet").textContent = "Wallet Connected";
 
-        bouton.style.width = "330px";
+        bouton.style.width = "200px";
         bouton.style.overflow = "hidden";
 
         const txt_walletNumber = document.createElement("p");
